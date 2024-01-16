@@ -1,14 +1,19 @@
 #include <stdio.h>
 
 int main(){
-   int somma = 0;
+     char alfabeto;
+     char alfa;
 
-   for(int i = 2; i <= 100; i += 2)
-   {
-        somma += i;
-   }
 
-    printf("%d \n",somma);
+    printf("terza lettera dell'alfabeto:\n");
+    scanf("%c", &alfabeto);
+    printf("la terza lettera dell'alfabeto è: %c \n", alfabeto);
+
+    printf("e la dodicesima:\n ");
+    scanf(" %c", &alfa);
+    printf("la dodicesima è la: %c \n", alfa);
 
     return 0;
+
 }
+  
